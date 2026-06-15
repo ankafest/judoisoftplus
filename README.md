@@ -22,7 +22,7 @@ With this solution, only one device can be connected. The following information 
 
 <img src="image-2.png" style="max-width: 20%; height: auto;">
 
-__The remaining calls of the current Python version can't communicate with the completely outdated REST interface of the Judo-Isoft Plus water softening system because of TLS errors. The solution was to handle the communication through a reverse proxy.__
+<span style="color:red; font-weight:bold;">The remaining calls of the current Python version can't communicate with the completely outdated REST interface of the Judo-Isoft Plus water softening system because of TLS errors. The solution was to handle the communication through a reverse proxy.</span>
 
 # Sensors and Button
 <img src="image.png" style="max-width: 20%; height: auto; align: top">
