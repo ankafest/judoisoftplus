@@ -3,10 +3,11 @@
   "name": "Judo Isoft Plus",
   "codeowners": ["@ankafest"],
   "config_flow": true,
-  "documentation": "https://www.home-assistant.io/integrations/judorestservice",
+  "documentation": "https://github.com/ankafest/judoisoftplus",
   "integration_type": "hub",
   "iot_class": "local_polling",
   "loggers": ["judo_rest_service_i_soft_plus"],
   "quality_scale": "bronze",
-  "requirements": []
+  "requirements": [],
+  "version": "1.0.0"
 }
