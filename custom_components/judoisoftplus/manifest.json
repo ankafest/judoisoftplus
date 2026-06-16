@@ -1,14 +1,14 @@
 {
-  "domain": "judoisoftplus",
-  "name": "Judo Isoft Plus",
   "codeowners": ["@ankafest"],
   "config_flow": true,
   "documentation": "https://github.com/ankafest/judoisoftplus",
+  "domain": "judoisoftplus",
   "integration_type": "hub",
+  "issue_tracker": "https://github.com/ankafest/judoisoftplus/issues",
   "iot_class": "local_polling",
   "loggers": ["judo_rest_service_i_soft_plus"],
+  "name": "Judo Isoft Plus",
   "quality_scale": "bronze",
   "requirements": [],
-  "version": "1.0.0",
-  "issue_tracker": "https://github.com/ankafest/judoisoftplus/issues"
+  "version": "1.0.0"
 }
