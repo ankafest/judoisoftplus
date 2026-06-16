@@ -1,23 +1,11 @@
 # judoisoftplus
 ## Version 1.0.0
 ## Intro
-Homeassistant Integration for Judo I-soft Plus - Watersoftening System with leakprotection. The integration based on Rest-Api interface.
-
-It's consists of 2 Parts:
-* sensor for
-    * waterhardness
-    * waterconsumption
-    * salt quantity 
-    * status for possible actions
-
-* button/slide switch for (possible actions)
-    * leakprotection on/of
-    * start waterregeneration 
-    * watervalve on/off
-    * change waterhardness 
-    * Szenen
+Homeassistant Integration for Judo I-soft Plus - Watersoftening System with leakprotection (with integrated communication software - __without separate connectivity modul__). The integration based on Rest-Api interface. 
 
 __The basis of solution is the rest-api, which you get if add ":8000" to the IP address of the Judo Isoft Plus water softening system in your web browser.__
+
+![alt text](image-3.png)
 
 # Connection
 With this solution, only one device can be connected. The following information is needed for the connection:
