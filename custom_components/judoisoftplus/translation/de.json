@@ -1,0 +1,59 @@
+{
+    "config": {
+        "abort": {
+            "no_devices_found": "Es wurde kein Geräte gefunden",
+            "single_instance_allowed": "Bereits konfiguriert. Nur eine einzelne Konfiguration möglich."
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "password": "Passwort",
+                    "port": "Port",
+                    "scan_interval": "Scan-Intervall",
+                    "serial number": "Seriennummer",
+                    "url": "URL",
+                    "username": "Benutzername"
+                }
+            }
+        }
+    },
+    "device": {
+        "dev_statistics": {"name": "Judo Statistics{postfix}"},
+        "dev_system": {"name": "Judo System{postfix}"},
+        "dev_unknown": {"name": "Judo Unknown{postfix}"}
+    },
+    "entity": {
+        "sensor": {
+            "currently_raw_water": {"name": "aktueller Rohwasserverbrauch"},
+            "currently_soft_water": {"name": "aktueller Wasserverbrauch"},
+            "salt_quantity": {"name": "vorhandene Salzmenge"},
+            "salt_quantity_percent": {"name": "Salzmenge in Prozent"},
+            "salt_range_in_days": {"name": "Reichweite Saltvorrat (Tage)"},
+            "salt_range_in_weeks": {"name": "Reichweite Salzvorrat (Wochen)"},
+            "standby_mode": {"name": "Wasserschutz"},
+            "total_raw_water": {"name": "gesamter Rohwasserverbrauch"},
+            "total_soft_water": {"name": "gesamter Wasserverbrauch"},
+            "water_average": {"name": "durchschnittlicher Wasserverbrauch"},
+            "natural_water_hardness": {"name": "natürliche Wasserhärte"},
+            "residual_water_hardness": {"name": "Restwasserhärte"},
+            "is_regenerating_running": {"name": "Regeneration aktiv"},
+            "current_water_valve": {"name": "aktuelles Wasser Ventil"}
+        },
+        "button": {
+            "set_standby_mode_on": {"name": "Wasserschutz aktivieren"},
+            "set_standby_mode_off": {"name": "Wasserschutz deaktivieren"},
+            "regeneration": {"name": "Regeneration"},
+            "turn_off_the_water": {"name": "Wasser ausschalten"},
+            "turn_on_the_water": {"name": "Wasser einschalten"},
+            "garten_irrigation": {"name": "Gartenbewässerung"},
+            "pool_fill_up": {"name": "Pool auffüllen"},
+            "refill_boiler_heating": {"name": "Heizkessel nachfüllen"},
+            "normal_wateroperation": {"name": "Standard Wasserbetrieb"}
+        },
+        "number": {
+            "residual_water_hardness": {"name": "Restwasserhärte"}
+        }
+    },
+    "title": "JudoISoftPlus Konfiguration"
+
+}
